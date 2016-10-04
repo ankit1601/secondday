@@ -5,4 +5,16 @@ a {
 
 h1{
 	font-family:sans-serif;
+	
+}
+
+/*h1,img{
+	margin-left: 400px;
+}*/
+
+div{
+	width: 400px;
+	background: red;
+	margin: auto;
+	text-align: center;
 }

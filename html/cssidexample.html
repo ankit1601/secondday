@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>CSS CLASS and IDs</title>
+		<style type="text/css">
+		/*	li{
+				color: red;
+			}*/
+			/*#emp{
+				color: red;
+			}*/
+
+			/*.emp{
+				color: red;
+			}*/
+
+			/*It will color all third li element of all the list*/
+			/*li:nth-child(3){ 
+				color: red;
+			}*/
+
+			/*to color particlar li of particular list either we can is id for ul or built in tag of css*/
+
+			ul:first-of-type li:nth-child(3){
+				color: red;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+		<ul>
+			<li>one</li>
+			<li>two</li>
+			<!-- <li id="emp">three</li> -->
+			<li>three</li>
+			<li>four</li>
+		</ul>
+		<ul>
+			<li class="emp">one</li>
+			<li>two</li>
+			<li class="emp">three</li>
+			<li>four</li>
+		</ul>
+		<ul>
+			<li>one</li>
+			<li>two</li>
+			<li>three</li>
+			<li>four</li>
+		</ul>
+	</body>
+</html>
