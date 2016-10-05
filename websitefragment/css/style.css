@@ -17,6 +17,7 @@ aside{
 img{
 	height: 100px;
 	width: 100px;
+	margin-right: 10px;
 }
 li{
 	list-style:none;
@@ -24,4 +25,7 @@ li{
 }
 #position{
 	float: right;
+}
+li a{
+	font-style: italic;
 }
