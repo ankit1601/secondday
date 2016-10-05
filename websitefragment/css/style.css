@@ -1,0 +1,27 @@
+.wrap{
+	width: 600px;
+	margin: auto;
+}
+.wrap:hover{
+	background: lightgray;
+}
+.box,aside{
+	height:500px;
+}
+.box{
+	width: 80%
+}
+aside{
+	float: left;
+}
+img{
+	height: 100px;
+	width: 100px;
+}
+li{
+	list-style:none;
+	display: inline
+}
+#position{
+	float: right;
+}

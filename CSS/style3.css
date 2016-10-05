@@ -1,0 +1,15 @@
+img{
+	height: 100px;
+	width: 100px;
+}
+body{
+	background: red;
+}
+
+h1 {
+	background: url(../../images/logo.png) no-repeat ;
+	text-indent: -20000px;
+	/*display: inline;*/
+
+
+}

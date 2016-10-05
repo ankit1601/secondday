@@ -1,0 +1,42 @@
+/*.box{
+	width: 200px;
+	height: 200px;
+	margin: auto;;
+	background:blue;
+}*/
+/*.box{
+	width: 200px;
+	height: 200px;
+	margin:auto;
+	background:blue;
+	position: relative;
+	right: 200px
+}*/
+body{
+	margin: 0;
+}
+/*.box{
+	width: 200px;
+	height: 200px;
+	background:blue;
+	position: relative;
+	left: 400px;
+	top:200px;
+}*/
+.box{
+	width: 200px;
+	height: 200px;
+	background:blue;
+	margin: auto;
+	position: absolute;
+	left: -10px;
+	top:0px;
+}
+
+.wrap{
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	background:green; 
+	position: relative;
+}
