@@ -1,0 +1,133 @@
+body{ 
+  background: url(../images/bodyimage2.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+}
+.pad{
+	padding-top: 20px;
+}
+.main{
+	position: relative;
+	top: 120px;
+	bottom:120px;
+}
+
+.image{
+	width:300px;
+	height:217px;
+}
+/*BOX class for image*/
+
+.box{
+	background: url(../images/hero.jpeg);
+	width: 100%;
+}
+
+/*Header section of CSS*/
+header h1{
+	height: 50px;
+	width: 200px;
+	background:url(../images/sylogo.jpg) no-repeat;
+	float: left;
+	text-indent:-1999px;
+	position:relative;
+	left: 10px;
+	top:20px;
+}
+header{
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 2px
+	height: 100px;
+	width: 100%;
+	background: rgba(0, 128, 0, 0.38);
+	min-width: 600px;
+	z-index: 90;
+	position:fixed;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+/*Navigation Section of CSS*/
+
+nav ul{
+	padding-top:30px;
+}
+nav ul li{
+	display: inline;
+	list-style:none;
+	padding-right: 10px;
+}
+nav ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	height: 10px;
+	width: 20px;
+	color: white;
+}
+nav ul li a:hover{
+	font-size: 30px;
+	background:green;
+	color:white;
+	border: 2px solid;
+}
+nav ul{
+	float: right;
+}
+
+.imgsize{
+	width: 470px;
+}
+#fontstyle{
+	text-shadow: 5px 20px 20px gray;
+	text-align: center;
+}
+
+/*Footer Section of CSS*/
+
+footer ul{
+	float: right;
+}
+
+footer ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	height: 10px;
+	width: 20px;
+}
+footer ul li{
+	display: inline;
+	list-style:none;
+	padding-right: 10px;
+	font-size: 20px;
+}
+footer{
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 2px;
+	margin-top: 150px;
+	height: 100px;
+	width: 100%;
+	background: rgba(0, 128, 0, 0.38);
+}
+.footerul{
+	display: list-item;
+	list-style: disc;
+}
+
+/*Commonly use class to align the text*/
+.textalign{
+	text-align: justify;
+}
+
+/*used class to hover*/
+.textdoc{
+	text-decoration: none;
+}
+
+.zoom:hover{
+}
