@@ -1,0 +1,36 @@
+header{
+	width: 100%;
+	height:100px;
+	background-color:black;
+	border: solid 2px black;
+}
+footer{
+	width: 100%;
+	height:100px;
+	background-color:black;
+	margin-bottom: 0px:;
+}
+nav{
+	height: 100px;
+	background:red;
+}
+
+#asideright{
+	float: left;
+	width: 20%;
+	height:800px;
+	background:green;
+}
+#asideleft{
+	float: left;
+	width: 20%;
+	height:800px;
+	background:green;
+
+}
+section{
+	width: 8000px;
+	background:blue;
+	float: left;
+	margin: auto;
+}
